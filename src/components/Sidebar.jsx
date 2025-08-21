@@ -16,7 +16,7 @@ const Wrap = styled.nav`
 const LogoBox = styled.div`
   width: 100%;
   height: 80px;
-  margin: 50px 0;
+  margin: 50px 0 10px 0;
   display: flex;
   align-items: center;
   justify-content: center;
