@@ -62,7 +62,7 @@ const SLink = styled(NavLink)`
 
 export default function Sidebar() {
   const menus = [
-    { path: "/home", label: "Home" },
+    { path: "/", label: "Home" },
     { path: "/professor", label: "Professor" },
     { path: "/members", label: "Members" },
     { path: "/projects", label: "Projects" },

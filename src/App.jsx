@@ -18,8 +18,7 @@ export default function App() {
       <GlobalStyle />
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<Navigate to="/home" replace />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />           
           <Route path="/professor" element={<Professor />} />
           <Route path="/members" element={<Members />} />
           <Route path="/projects" element={<Projects />} />
