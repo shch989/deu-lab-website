@@ -81,14 +81,14 @@ const ContactPeopleSection = () => {
   const people = [
     {
       role: "Professor | Director",
-      name: "Seok chan Jeong",
+      name: "Seok Chan Jeong",
       dept: `Dept. of e–Business and\nGraduate School of Artificial Intelligence,\nDong–Eui University`,
       email: "scjeong@deu.ac.kr",
       phone: "+82-51-890-2760",
     },
     {
       role: "Research Professor",
-      name: "Young jin Kang",
+      name: "Young Jin Kang",
       dept: `Dept. of Artificial Intelligence\nDong–Eui University`,
       email: "15073@deu.ac.kr",
       phone: "+82-51-890-2776",
