@@ -1,8 +1,9 @@
 import React from 'react'
+import PublicationsSection from '../components/Publications/PublicationsSection'
 
 const Publications = () => {
   return (
-    <div>Publications</div>
+    <PublicationsSection />
   )
 }
 
