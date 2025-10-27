@@ -1,8 +1,9 @@
 import React from 'react'
+import MembersSection from '../components/Members/MembersSection'
 
 const Members = () => {
   return (
-    <div>Members</div>
+    <MembersSection />
   )
 }
 
