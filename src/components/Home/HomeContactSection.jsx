@@ -73,7 +73,7 @@ const MapWrap = styled.div`
   background: #eef2f7;
   position: relative;
   width: 80%;
-  padding-top: 40%;  /* 56.25% → 40%로 줄이면 지도 높이 약 30% 감소 */
+  padding-top: 40%;
   iframe, img {
     position: absolute;
     inset: 0;

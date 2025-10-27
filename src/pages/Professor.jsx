@@ -1,8 +1,9 @@
 import React from 'react'
+import ProfessorProfile from '../components/Professor/ProfessorProfile'
 
 const Professor = () => {
   return (
-    <div>Professor</div>
+    <ProfessorProfile />
   )
 }
 
