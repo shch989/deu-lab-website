@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Section = styled.section`
   width: 100%;
-  padding: clamp(24px, 6vw, 72px) 0;
+  padding: clamp(24px, 6vw, 30px) 0;
   background: transparent;
   color: #1a2a44;
   display: flex;
