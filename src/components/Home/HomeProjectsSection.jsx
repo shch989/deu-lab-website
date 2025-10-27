@@ -29,13 +29,12 @@ const Block = styled.div`
     `}
 `;
 
-const Title = styled.h2`
-  font-family: 'Times New Roman', serif;
-  font-weight: 700;
-  letter-spacing: 0.2px;
-  margin: 0 0 25px;
-  font-size: clamp(22px, 2.6vw, 36px);
+const Title = styled.h1`
+  font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'Times New Roman', serif;
+  font-weight: 800;
+  font-size: clamp(24px, 3vw, 40px);
   line-height: 1.2;
+  margin: 0 0 18px;
   color: #0f2a4a;
 `;
 

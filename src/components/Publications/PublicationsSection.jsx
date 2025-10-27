@@ -42,22 +42,17 @@ const List = styled.ul`
 `;
 
 const Item = styled.li`
-  font-family: 'Noto Serif KR','Nanum Myeongjo','Times New Roman', serif;
   position: relative;
-  padding-left: 26px;             /* 불릿-텍스트 간격 */
+  padding-left: 22px;
   line-height: 1.9;
-  font-size: clamp(14px, 1.1vw, 18px);
-
-  &::before {
+  &::before{
     content: "■";
     position: absolute;
-    left: 0;
-    top: 0.12em;
-    font-size: 0.85em;
+    left: 0; top: 0.15em;
+    font-size: 0.8em;
     color: #1e3a8a;
   }
-
-  & + & { margin-top: 10px; }     /* 항목 간 간격 */
+  & + & { margin-top: 6px; }
 `;
 
 const PublicationsSection = () => {

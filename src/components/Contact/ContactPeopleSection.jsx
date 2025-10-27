@@ -39,14 +39,14 @@ const Role = styled.div`
 `;
 
 const Name = styled.h2`
-  margin: 0 0 10px;
+  margin: 0 0 15px;
   font-weight: 800;
   font-size: clamp(22px, 1.5vw, 36px);
   color: #0f2a4a;
 `;
 
 const Dept = styled.p`
-  margin: 0 0 14px;
+  margin: 0 0 20px;
   line-height: 1.7;
 `;
 
