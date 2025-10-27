@@ -120,7 +120,7 @@ const Item = styled.li`
 const ProfessorProfile = () => {
   const photo = professor01;
   const role = "Professor | Director";
-  const name = "Seok chan Jeong";
+  const name = "Seok Chan Jeong";
   const dept = `Dept. of e–Business and\nGraduate School of Artificial Intelligence,\nDong–Eui University`;
   const email = "scjeong@deu.ac.kr";
   const phone = "+82-51-890-2760";

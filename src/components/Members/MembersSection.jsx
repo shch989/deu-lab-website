@@ -32,7 +32,7 @@ const TeamTitle = styled.h2`
   font-family: 'Noto Serif KR','Nanum Myeongjo','Times New Roman', serif;
   font-weight: 800;
   font-size: clamp(18px, 2.1vw, 28px);
-  margin: clamp(12px, 2.5vw, 40px) 0 6px;
+  margin: clamp(12px, 3.6vw, 62px) 0 6px;
   color: #0f2a4a;
 
   a {
@@ -129,14 +129,14 @@ const sections = [
         role: "Research Professors",
         members: [
           {
-            name: "Young jin Kang",
+            name: "Young Jin Kang",
             dept: "Dept. of Artificial Intelligence",
             phone: "+82-51-890-2776",
             email: "15073@deu.ac.kr",
             photo: "",
           },
           {
-            name: "Ki hwan Kim",
+            name: "Ki Hwan Kim",
             dept: "Dept. of Artificial Intelligence",
             phone: "+82-51-890-2803",
             email: "15541@deu.ac.kr",
@@ -148,7 +148,7 @@ const sections = [
         role: "Researcher",
         members: [
           {
-            name: "Da sol Jeon",
+            name: "Da Sol Jeon",
             dept: "Industrial ICT Technology Engineering",
             phone: "",
             email: "15889@deu.ac.kr",
@@ -166,7 +166,7 @@ const sections = [
         role: "Ph.D. Students",
         members: [
           {
-            name: "Ji yeon Kim",
+            name: "Ji Yeon Kim",
             dept: "Dept. of Artificial Intelligence",
             phone: "",
             email: "jnsp0907@naver.com",
@@ -178,35 +178,35 @@ const sections = [
         role: "Master Students",
         members: [
           {
-            name: "Byeong jun Gong",
+            name: "Byeong Jun Gong",
             dept: "Dept. of Artificial Intelligence",
             phone: "",
             email: "qkatpkd@naver.com",
             photo: "",
           },
           {
-            name: "In ho Jeong",
+            name: "In Ho Jeong",
             dept: "Dept. of Artificial Intelligence",
             phone: "",
             email: "jungh456@gmail.com",
             photo: "",
           },
           {
-            name: "Seong hyeon Jo",
+            name: "Seong Hyeon Jo",
             dept: "Dept. of Artificial Intelligence",
             phone: "",
             email: "thch989@naver.com",
             photo: "",
           },
           {
-            name: "Min soo Kim",
+            name: "Min Soo Kim",
             dept: "Dept. of Artificial Intelligence",
             phone: "",
             email: "h_ellow_orlid@naver.com",
             photo: "",
           },
           {
-            name: "Ji hyeon Sin",
+            name: "Ji Hyeon Sin",
             dept: "Dept. of Artificial Intelligence",
             phone: "",
             email: "zh2326@naver.com",
