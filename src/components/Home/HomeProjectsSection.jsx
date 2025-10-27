@@ -30,11 +30,11 @@ const Block = styled.div`
 `;
 
 const Title = styled.h1`
-  font-family: 'Noto Serif KR', 'Nanum Myeongjo', 'Times New Roman', serif;
+  font-family: 'Noto Serif KR','Nanum Myeongjo','Times New Roman', serif;
   font-weight: 800;
   font-size: clamp(24px, 3vw, 40px);
   line-height: 1.2;
-  margin: 0 0 18px;
+  margin: 0 0 25px;
   color: #0f2a4a;
 `;
 

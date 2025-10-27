@@ -4,6 +4,8 @@ import { ThemeProvider } from "styled-components";
 import GlobalStyle from "./components/GlobalStyle";
 import theme from "./components/theme";
 
+import ScrollToTop from "./components/ScrollToTop"; // ✅ 추가
+
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Professor from "./pages/Professor";
@@ -16,9 +18,10 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
+      <ScrollToTop smooth /> 
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<Home />} />           
+          <Route path="/" element={<Home />} />
           <Route path="/professor" element={<Professor />} />
           <Route path="/members" element={<Members />} />
           <Route path="/projects" element={<Projects />} />
